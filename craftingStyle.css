@@ -1,0 +1,136 @@
+ul#list_of_items {
+  list-style-type:none;
+}
+ul#list_of_items li{
+  position: relative;
+  font-size:20px;
+  font-family: helvetica, arial, sans-serif;
+}
+ul#list_of_items li > span{
+  position: relative;
+  display:none;
+}
+ul#list_of_items li:hover > span{
+  position: absolute;
+  top:0;
+  left:40px;
+  display:block;
+  background:red; /* Hover Text Background Color */
+  color:white;    /* Hover Text Font Color */
+  padding:6px;
+  width:100px;
+  text-align:center;
+  z-index:100;
+}
+ul#list_of_items li:hover > span:after {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(136, 183, 213, 0);
+	border-right-color: red;
+	border-width: 6px;
+	margin-top: -6px;
+}
+ul#craftedItemDisplay {
+  list-style-type:none;
+}
+ul#craftedItemDisplay li{
+  position: relative;
+  font-size:20px;
+  font-family: helvetica, arial, sans-serif;
+}
+ul#craftedItemDisplay li > span{
+  position: relative;
+  display:none;
+}
+ul#craftedItemDisplay li:hover > span{
+  position: absolute;
+  top:8px;
+  left:55px;
+  display:block;
+  background:red; /* Hover Text Background Color for crafted item */
+  color:white;    /* Hover Text Font Color for crafted item */
+  padding:6px;
+  width:100px;
+  text-align:center;
+  z-index:100;
+}
+ul#craftedItemDisplay li:hover > span:after {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(136, 183, 213, 0);
+	border-right-color: red;
+	border-width: 6px;
+	margin-top: -6px;
+}
+#craftTable {
+	left: 8px;
+	position: relative;
+	top: -2px;
+}
+#craftTableOne {
+	position: relative;
+	top: -2px;
+}
+#craftDiv {
+	width:238px; 
+	height: 132px; 
+	left:-8px; 
+	padding-top:10px;
+	position:relative;
+}
+#item1, #item2, #item3, #item4, #item5, #item6, #item7, #item8, #item9 {
+	position: absolute;
+}
+#item1, #item2, #item3 {
+	top:32px;
+}
+#item4, #item5, #item6 {
+	top:68px;
+}
+#item7, #item8, #item9 {
+	top:104px;
+}
+#item1 {
+	left:13px;
+}
+#item2 {
+	left:48px;
+}
+#item3 {
+	left:85px;
+}
+#item4 {
+	left:13px;
+}
+#item5 {
+	left:48px;
+}
+#item6 {
+	left:85px;
+}
+#item7 {
+	left:13px;
+}
+#item8 {
+	left:48px;
+}
+#item9 {
+	left:85px;
+}
+#craftedItem {
+	position: absolute;
+	left:193px;
+	top:59px;
+}

@@ -70,7 +70,7 @@ ul#craftedItemDisplay li:hover > span:after {
 	position: absolute;
 	pointer-events: none;
 	border-color: rgba(136, 183, 213, 0);
-	border-right-color: red;
+	border-right-color: blue;
 	border-width: 6px;
 	margin-top: -6px;
 }
